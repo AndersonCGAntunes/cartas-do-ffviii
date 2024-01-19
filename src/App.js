@@ -12,7 +12,7 @@ function App() {
 
   const cardType = ["Monster", "Boss", "Guardian Force", "Player"];
 
-  const monstraTipo = (escolha) => {
+  const mostraTipo = (escolha) => {
     switch (escolha) {
       case 1:
       case 2:
@@ -54,7 +54,7 @@ function App() {
 
   const cardId = CardData.data.find(card => Object.keys(card)[0] === selectedCardName)?.[selectedCardName]?.id;
 
-  const tipoDaCarta = monstraTipo(rangeValue);
+  const tipoDaCarta = mostraTipo(rangeValue);
 
   return (
     <div className="App">
