@@ -5,7 +5,7 @@ const CardDetails = ({ cardData }) => {
   const { elemental, cardMod, howToObtain } = cardData[cardName];
 
   return (
-    <div className='eleDetails'>
+    <div>
       <h3>Detalhes da carta</h3>
       <p><strong>Elemental:</strong> {elemental}</p>
       <p><strong>Pode Modificar em:</strong> {cardMod}</p>

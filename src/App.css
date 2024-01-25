@@ -2,80 +2,79 @@ body {
   background-color: #282c34;
 }
 
-.App {
-  text-align: center;
-}
-
 .titulo {
   color: white;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .container {
-  width: 600px;
+  width: 740px;
   height: 600px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 10px auto;
+  gap: 10px;
 }
 
 .level {
-  width: 590px;
+  width: 740px;
   background-color: white;
   border-radius: 5px;
-  margin: 5px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
 }
 
 .lblLevel {
-  line-height: 1px;
-  padding-left: 10px;
+  padding: 0 10px;
   text-align: left;
   font-weight: bolder;
-  background-color: rgb(231, 231, 231);
   color: rgb(33, 66, 189);
 }
 
 .cardType {
   float: right;
-  padding-right: 10px;
 }
 
 .barra {
   appearance: none;
-  width: 580px;
+  width: 725px;
   cursor: pointer;
   background-color: rgb(33, 66, 189);
   border-radius: 10px;
+  align-self: center;
 }
 
 .lista {
-  width: 170px;
+  width: 235px;
   height: 200px;
-  background: rgb(33,66,189);
   background: linear-gradient(0deg, rgba(33,66,189,1) 0%, rgba(33,66,189,1) 0%, rgba(231,231,231,1) 70%);
   color: rgb(33, 66, 189);
+  padding: 0 10px;
 }
 
 .display {
-  width: 370px;
+  width: 455px;
   height: 200px;
-  background: rgb(33,66,189);
   background: linear-gradient(0deg, rgba(33,66,189,1) 0%, rgba(33,66,189,1) 0%, rgba(231,231,231,1) 70%);
   color: rgb(33, 66, 189);
+  padding: 0 10px;
 }
 
 .details {
-  flex-grow: 3;
-  width: 590px;
+  width: 740px;
   height: 350px;
   background-color: rgb(33, 66, 189);
   color: white;
+  padding: 0 10px;
 }
 
 .lista, .display, .details {
   text-align: left;
-  margin: 5px;
-  padding: 10px;
   border-radius: 5px;
 }
 

@@ -5,7 +5,7 @@ const CardList = ({ cards, onSelectCard, valorDefault }) => {
   const data = cards.data || []; // Acessar o array 'data' dentro do objeto 'cards'
 
   return (
-    <div className='eleSelect'>
+    <div>
       <h3>Escolha a carta</h3>
       <select value={valorDefault} onChange={(e) => onSelectCard(e.target.value)}>
         {data.map((card, index) => {

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ImageDisplay = ({ imageName }) => {
-  const imagePath = `./images/TT${imageName}.webp`;
+  const imagePath = `./cartas-do-ffviii/images/TT${imageName}.webp`;
 
   return (
     <div className='eleDisplay'>

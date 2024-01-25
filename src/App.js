@@ -57,11 +57,8 @@ function App() {
   const tipoDaCarta = mostraTipo(rangeValue);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <h3 className='titulo'>Cartas do jogo Final Fantasy VIII</h3>
-      </header>
       <div className='container'>
+        <h3 className='titulo'>Cartas do jogo Final Fantasy VIII</h3>
         <div className='level'>
           <p className='lblLevel'>Cartas nível {rangeValue} <span className='cardType'>[Cartas do tipo {tipoDaCarta}]</span></p>
           <input type="range" defaultValue={1} className='barra' name="level" min="1" max="10" onChange={onRangeChange} />
@@ -76,7 +73,6 @@ function App() {
           <CardDetails cardData={CardData.data[cardId - 1]} />
         </div>
       </div>
-    </div>
   );
 }
 
